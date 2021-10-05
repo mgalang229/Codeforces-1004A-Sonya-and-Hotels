@@ -16,7 +16,7 @@ int main() {
 	int cnt = 2;
 	if (n > 1) {
 		for (int i = 1; i < n; i++) {
-			// there will be two case for each adjacent hotel
+			// there will be two cases for each adjacent hotel
 			// left hotel = a[i - 1], right hotel = a[i]
 			// case 1:
 			// if the distance between the left and right hotel is exactly equal to 'd', then
